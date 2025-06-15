@@ -15,7 +15,7 @@ public abstract class mobil implements booking, perhitungan_biaya{
             System.out.println("Maaf, usia minimal sewa mobil adalah 21 tahun.");
             System.out.print("Silakan masukkan ulang usia Anda: ");
             umur = scanner.nextInt();
-            scanner.nextLine(); // Membersihkan newline
+            scanner.nextLine(); 
         }
         System.out.println(nama + " : berhasil memesan mobil.");
     }
